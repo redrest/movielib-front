@@ -6,7 +6,7 @@ export const checkAdminRole = async () => {
         return false;
     }
     try {
-        const response = await axios.get('http://localhost:5000/admin', {
+        const response = await axios.get('http://90.156.171.177:5000/admin', {
             headers: {
                 Authorization: `Bearer ${token}`,
             },

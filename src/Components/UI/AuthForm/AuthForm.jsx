@@ -17,7 +17,7 @@ const AuthForm = () => {
         const url = isLogin ? '/auth/login' : '/auth/registration';
 
         try {
-            const response = await axios.post(`http://localhost:5000${url}`, { username, password });
+            const response = await axios.post(`http://90.156.171.177:5000${url}`, { username, password });
 
             if (!isLogin) {
                 setSuccessMessage('Пользователь успешно зарегистрирован. Для входа перейдите на страницу логина.');

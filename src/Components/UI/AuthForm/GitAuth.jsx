@@ -23,7 +23,7 @@ const GitAuth = () => {
     }, [navigate]);
     const handleGitHubLogin = () => {
         localStorage.clear();
-        window.location.href = 'http://localhost:5000/auth/github';
+        window.location.href = 'http://90.156.171.177:5000/auth/github';
     };
     return (
         <div style={{ width:'100%', textAlign:'center'}}>

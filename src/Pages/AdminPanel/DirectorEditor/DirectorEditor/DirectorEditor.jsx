@@ -80,7 +80,7 @@ const DirectorEditor = () => {
         formData.append('file', file);
 
         try {
-            const response = await fetch('http://localhost:5000/uploads', {
+            const response = await fetch('http://90.156.171.177:5000/uploads', {
                 method: 'POST',
                 body: formData,
             });
