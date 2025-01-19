@@ -1,0 +1,21 @@
+.movies {
+    width: 100%;
+    max-width: var(--max-width-fhd);
+    margin: 0 auto;
+}
+
+.title {
+    font-size: 36px;
+    font-family: var(--font-family-dm-sans), sans-serif;
+    color: var(--black);
+    padding: 0 20px;
+    margin-bottom: 20px;
+}
+
+.list {
+    position: relative;
+    width: 100%;
+    padding: 0 20px;
+}
+
+

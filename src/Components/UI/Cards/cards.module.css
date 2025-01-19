@@ -1,0 +1,174 @@
+.card {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    margin-bottom: 20px;
+    gap: 25px;
+}
+
+.content {
+    position: relative;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.information {
+    position: relative;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.information h1 {
+    font-size: 28px;
+    font-family: var(--font-family-dm-sans), sans-serif;
+    color: var(--black);
+    padding-bottom: 10px;
+}
+
+.information span {
+    font-size: var(--font-size-medium);
+    font-family: var(--font-family-dm-sans), sans-serif;
+    color: var(--gray);
+}
+
+.year_rating {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
+
+.fullName {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
+
+.information > span {
+    padding-bottom: 5px;
+}
+
+.information span a {
+    color: var(--black);
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+.information span > span {
+    color: var(--black);
+    font-weight: var(--font-weight-normal);
+}
+
+.information span a:hover {
+    color: var(--rose);
+}
+
+.link {
+    position: relative;
+    font-size: 32px;
+    top: 40%;
+    transition: 0.3s ease;
+    opacity: 0.3;
+}
+
+.link:hover {
+    opacity: 1;
+    transition: 0.3s ease;
+}
+
+.link img {
+    width: 30px;
+    height: 30px;
+}
+
+.poster {
+    max-width: 170px;
+    width: 100%;
+}
+
+
+.poster img {
+    position: relative;
+    display: flex;
+    max-height: 250px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+
+}
+
+.career_st {
+    color: var(--black) !important;
+}
+
+.genre_card {
+    position: relative;
+    min-width: 200px;
+    width: 20%;
+    height: 100%;
+    background-color: var(--light-gray);
+    border-radius: 10px;
+    transition: 0.3s ease;
+}
+
+.genre_card a {
+    position: relative;
+    display: flex;
+    width: 100%;
+    padding: 50px 30px;
+    justify-content: center;
+    align-items: center;
+    word-break: break-word;
+    text-decoration: none;
+    color: var(--black);
+    font-size: var(--font-size-medium);
+    font-family: var(--font-family-dm-sans), 'sans-serif';
+    font-weight: var(--font-weight-bold);
+    transition: 0.3s ease;
+}
+
+.genre_card:hover {
+    background-color: #FECDD3;
+    transition: 0.3s ease;
+}
+
+.genre_card a:hover {
+    color: var(--rose);
+    transition: 0.3s ease;
+}
+
+@media screen and (max-width: 1440px) {
+    .genre_card{
+        width: 26%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .genre_card{
+        width: 31%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .genre_card{
+        width: 48%;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .genre_card{
+        width: 90%;
+    }
+}

@@ -1,0 +1,115 @@
+.auth_block {
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin: 100px auto;
+    padding: 20px;
+    background: var(--light-gray);
+    border-radius: 15px;
+}
+
+.auth_block h2 {
+    font-size: 28px;
+    font-family: var(--font-family-dm-sans), sans-serif;
+    color: var(--black);
+    margin-bottom: 10px;
+}
+
+.form {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.field_login {
+    position: relative;
+    width: 100%;
+}
+
+.field_password {
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.field_password label, .field_login label {
+    font-family: var(--font-family-dm-sans), 'sans-serif';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23px;
+    text-align: left;
+    margin-left: 10px;
+}
+
+.login_input {
+    position: relative;
+    width: 100%;
+    padding: 5px 10px 5px;
+    font-family: var(--font-family-dm-sans), 'sans-serif';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23px;
+    text-align: left;
+    border-radius: 10px;
+    color: #292929;
+    border: 1px solid #292929;
+}
+
+.password_input {
+    position: relative;
+    width: 100%;
+    padding: 5px 10px 5px;
+    font-family: var(--font-family-dm-sans), 'sans-serif';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23px;
+    border-radius: 10px;
+    text-align: left;
+    color: #292929;
+    border: 1px solid #292929;
+}
+
+.form button {
+    position: relative;
+    width: 60%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid var(--black);
+    border-radius: 10px;
+    background: var(--light-gray);
+    color: var(--black);
+    font-family: var(--font-family-dm-sans), 'sans-serif';
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 22px;
+    text-align: center;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.form button:hover {
+    background-color: #FECDD3;
+    transition: 0.3s ease;
+    color: var(--rose);
+}
+
+.btn_reg_log {
+    width: 40% !important;
+    padding: 5px !important;
+    font-size: var(--font-size) !important;
+}
+
+.success_message {
+    color: var(--black);
+    font-family: var(--font-family-dm-sans), 'sans-serif';
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 22px;
+    text-align: center;
+}

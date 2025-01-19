@@ -1,0 +1,38 @@
+.home {
+
+}
+
+.container {
+    width: 100%;
+    max-width: var(--max-width-fhd);
+    margin: 0 auto;
+}
+
+.container h1 {
+    font-size: 36px;
+    font-family: var(--font-family-dm-sans), sans-serif;
+    color: var(--black);
+}
+
+.title {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title a {
+    text-decoration: none;
+    font-size: var(--font-size-medium);
+    font-family: var(--font-family-dm-sans), sans-serif;
+    color: var(--rose);
+    transition: 0.3s ease-in-out;
+}
+
+.title a:hover {
+    opacity: 0.7;
+    transition: 0.3s ease-in-out;
+}

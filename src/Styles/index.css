@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    height: 100%;
+    width: 100%;
+}
+
+#root main {
+    width: 100%;
+    padding-top: 100px;
+    flex: 1 0 auto;
+}
+
+:root {
+    --max-width-fhd: 1480px;
+    --font-size-min: 12px;
+    --font-size: 16px;
+    --font-size-medium: 20px;
+    --font-size-large: 24px;
+    --font-family-dm-sans: "dm-sans", sans-serif;
+    --font-weight-normal: 400;
+    --font-weight-bold: 700;
+    --line-height: 16;
+    --white: #FFFFFF;
+    --black: #000000;
+    --rose: #BE123C;
+    --gray: #9CA3AF;
+    --light-gray: #E5E7EB;
+}

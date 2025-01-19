@@ -1,0 +1,20 @@
+.directors {
+    width: 100%;
+    margin: 0 auto;
+    max-width: var(--max-width-fhd);
+}
+
+.title {
+    font-size: 36px;
+    font-family: var(--font-family-dm-sans), sans-serif;
+    color: var(--black);
+    padding: 0 20px;
+    margin-bottom: 20px;
+}
+
+.list {
+    position: relative;
+    width: 100%;
+    padding: 0 20px;
+}
+
